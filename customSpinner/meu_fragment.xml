@@ -1,0 +1,14 @@
+<LinearLayout android:id="@+id/optionSpinn" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingTop="16dp" android:paddingLeft="16dp" android:paddingRight="16dp">
+
+  <TextView style="@style/TextView.InputLabel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Controle de recebimento de carga" android:visibility="gone" />
+
+  <Spinner android:id="@+id/spinner" style="@style/Widget.AppCompat.Spinner.Underlined" android:layout_width="match_parent" android:layout_height="wrap_content" android:spinnerMode="dialog" android:visibility="gone" tools:ignore="HardcodedText" />
+
+  <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:textColorHint="@color/primary" android:theme="@style/TextLabel" app:errorEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText android:id="@+id/TextInputSpinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/white" android:cursorVisible="false" android:drawableRight="@mipmap/ic_dow" android:editable="false" android:focusable="false" android:hint="Controle de recebimento de carga" android:textColor="@color/primary" android:textColorHint="@color/primary" android:textSize="16sp" />
+
+  </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
